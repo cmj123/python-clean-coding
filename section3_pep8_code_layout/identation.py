@@ -43,3 +43,23 @@ available = True
 if clean and \
         available:
     print("Ready for viewing")
+
+# even_numbers = [2,4,6,8,10,12,14,16,18,20] - Wrong 
+
+# Space after a comma in a list
+even_numbers = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20] 
+
+# Multiple lines
+even_numbers = [
+    2, 4, 6, 8, 10, 
+    12, 14, 16, 18, 
+    20
+    ] 
+
+def my_func(a, b, c, d, e, f):
+    print(a, b, c, d, e, f)
+
+my_func(
+    'a', 'b', 'c',
+    'd', 'e', 'f'
+    )
