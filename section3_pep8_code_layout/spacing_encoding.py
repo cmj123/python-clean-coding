@@ -4,7 +4,7 @@
 #3. Within a method, have 1 line space between functions in the menthod
 #4. Write comments
 #5. After creating a class, there must be 2 lines spaces before the next piece of code
-#6. 
+#6. Use UTF-8 encoding
 
 class Person:
 
@@ -25,7 +25,12 @@ class Person:
             print("Perfect")
 
 
-adam = Person(5.5, 150)
-adam.get_data()
+# adam = Person(5.5, 150)
+# adam.get_data()
+
+# Encoding
+# Python distribution should always use UTF-8
+print(('大目').encode("unicode_escape"))
+print(len(('大目').encode("utf-8")))
 
 
