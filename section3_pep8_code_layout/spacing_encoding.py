@@ -33,4 +33,6 @@ class Person:
 print(('大目').encode("unicode_escape"))
 print(len(('大目').encode("utf-8")))
 
+alpha = 1
+
 
